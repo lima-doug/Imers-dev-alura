@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Imersão Dev Alura - Aula 1</title>
+    <link rel="stylesheet" type="text/css" href="./main/style.css" media="screen" />
+    
+</head>
+<body>
+    <script language="JavaScript" type="text/javascript" src="./script.js"></script>
+    
+    <header class="top-menu">
+        <img src="./img/Group 2.svg" >
+    </header>
+
+    <section>
+    <div class="container">
+        <h1 class="page-title">
+            Calculadora de média
+        </h1>
+        <p class="page-subtitle">
+            Descubra qual a sua média de nota de todas as provas!    
+        </p>
+        
+    </div>
+    </section>
+
+    <section class="forms-average" method="post">
+        
+            <form class="note-form">
+                <input type="text" id="text-result" placeholder="Resultadado da média final..." value=""><br><br> 
+                <label for="note1"> Nota do Primeiro Bimestre</label><br>
+                <input type="number" id="note1" value="" max="10" placeholder="Digite a nota aqui"/><br>
+                <label for="note2"> Nota do Segundo Bimestre</label><br>
+                <input type="number" id="note2" value="" max="10" placeholder="Digite a nota aqui"/><br>
+                <label for="note3"> Nota do Terceiro Bimestre</label><br>
+                <input type="number" id="note3" value="" max="10" placeholder="Digite a nota aqui"/><br>
+                <label for="note4"> Nota do Quarto Bimestre</label><br>
+                <input type="number" id="note4" value="" max="10" placeholder="Digite a nota aqui"/><br>
+                <input type="button" id="calc-average" onclick="mediaFinal();" value="enviar"/><br>   
+                
+            </form>
+        
+    </section>
+
+    <footer class="alura-logo">
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="logo-imers" alt=""><br>
+        <a href="https://www.alura.com.br/" target="_blank"><img src="https://www.alura.com.br/assets/img/home/alura-logo.svg"></a>
+    </footer>
+
+</body>
+</html>
