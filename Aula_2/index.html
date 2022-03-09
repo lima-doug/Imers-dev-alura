@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Imersão Dev Alura - Aula 1</title>
+    <link rel="stylesheet" type="text/css" href="./main/style.css" media="screen" />
+    
+</head>
+<body>
+    <script language="JavaScript" type="text/javascript" src="./script.js"></script>
+    
+    <header class="top-menu">
+        <img src="./img/Group 2.svg" >
+    </header>
+
+    <section>
+    <div class="container">
+        <h1 class="page-title">
+            Calculadora de média
+        </h1>
+        <p class="page-subtitle">
+            Descubra qual a sua média de nota de todas as provas!    
+        </p>
+        
+    </div>
+    </section>
+
+    <section class="forms-convert" method="post">
+        
+            <form class="note-form">
+                 
+                <label for="value-real"> Valor em Real </label><br>
+                <input type="number" id="value-real" value="" max="10" placeholder="Digite o valor em Real"/><br>
+                <label for="value-convert"> Converter para </label><br>
+                <select id="value-convert" value="">
+                    <option value="USD">United States Dollars - USD</option>
+                    <option value="EUR">Euro - EUR</option>
+                    <option value="GBP">United Kingdom Pounds - GBP</option>
+                    <option value="CAD">Canada Dollars - CAD</option>
+                    <option value="AUD">Australia Dollars - AUD</option>
+                    <option value="JPY">Japan Yen - JPY</option>
+                    <option value="INR">India Rupees - INR</option>
+                    <option value="NZD">New Zealand Dollars - NZD</option>
+                    <option value="CHF">Switzerland Francs - CHF</option>
+                    <option value="BTC">Bitcoin - BTC</option>
+                </select><br>
+                <input type="button" id="convert-money" onclick="javascript:convertCsh();" value="enviar"/><br><br>
+                
+                <label for="text-result"> Valor convertido </label><br>
+                <input type="text" id="text-result"  value="">
+                
+            </form>
+        
+    </section>
+
+    <footer class="alura-logo">
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="logo-imers" alt=""><br>
+        <a href="https://www.alura.com.br/" target="_blank"><img src="https://www.alura.com.br/assets/img/home/alura-logo.svg"></a>
+    </footer>
+
+</body>
+</html>
