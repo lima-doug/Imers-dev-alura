@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    min-height: 400px;
+    background-color: #2D2F2E;
+    background-size: 80vh;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+h2 {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+  .top-menu {
+      padding: 10px;
+      size: 50px;
+      display: flex;
+      justify-content: center;
+  }
+
+
+  .container {
+    margin-top: 30px ;
+    text-align: center;
+    padding: 20px;
+    height: 170px;
+  }
+  
+  
+
+  .page-title {
+    color:#ffffff;
+    font-size: 48px;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color:#ffffff;
+    font-size: 18px;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 50%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    bottom: 0px;
+    right: 25%;
+    vertical-align: middle;
+    align-items: center;    
+    
+  }
+
+  .logo-imers {
+    width: 200px;
+    margin-right: 20px;
+  }
+
+  .note-form {
+    width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  label {
+    color: #ffffff;
+    font-size: 14px;
+    margin-bottom: -10px;
+  }
+
+  input {
+    height: 30px;
+    text-align: center;
+  }
+
+  #ver-chute{
+    height: 45px;
+    background-color: #2F9690;
+    color: white;
+    border: none;
+    border-radius: 4px;
+  }
+
+  #text-result {
+    border: none;
+    font-size: 18px;
+  }
+
