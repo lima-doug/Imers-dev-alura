@@ -1,6 +1,6 @@
 
-var listaFilme = [""];
-var listaName = ["Castelo no Ceu", "Chihiro", "Ponyo"];
+var listaFilme = [];
+var listaName = [];
 
 for (var i = 0; i < listaFilme.length; i++){
 

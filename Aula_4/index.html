@@ -4,25 +4,43 @@
 <head>
     <meta charset="UTF-8">
     <title>Desafio Aula 4 - Imersão Dev Alura</title>
-    <script src="../Aula_4/script.js"></script>
+    <link rel="stylesheet" href="./main/style.css" type="text/css">
+    
 </head>
 
 <body>
-    
 
-    <section class="form-Input">
+    <head class="menu-alura">
+        <a href="https://www.alura.com.br/" target="_blank"><img src="" alt=""></a>
+        <img src="" alt="">
+
+    </head>
+
+    <div class="bloco-geral">
+
+    <section class="container">
+        <article class="title">
+            <h1>Aluraflix</h1>
+        </article>
+        <article class="subtitle">
+            
+        </article>
+
         <form>
             <label for="pegarImg">Digite a URL da Imagem</label><br>
             <input type="text" id="pegarImg" value="" /><br>
             <label for="pegarNome"></label>Digite o nome do Filme<br>
             <input type="text" id="pegarNome" value="" /><br>
             <input type="button" id="inserir" onclick="addItem()" value="Adicionar Filme" /><br><br>
-
         </form>
     </section>
 
-    <article id="subst-image"></article>
 
+    <section class="showFilme">
+        <article id="subst-image"></article>
+        <script src="../Aula_4/script.js"></script>
+    </section>
+</div>
 </body>
 
 </html>

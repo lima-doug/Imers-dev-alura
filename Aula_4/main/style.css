@@ -1,0 +1,30 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.bloco-geral {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.container {
+    display: flex;
+
+    height: 100%;
+    width: 30%;
+    background: #313131;
+
+}
+
+.showFilme {
+
+    height: 100%;
+    width: 70%;
+    background: #2af701;
+
+}
+
