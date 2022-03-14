@@ -4,42 +4,49 @@
 <head>
     <meta charset="UTF-8">
     <title>Desafio Aula 4 - Imersão Dev Alura</title>
-    <link rel="stylesheet" href="./main/style.css" type="text/css">
+    <link rel="stylesheet" href="./main/style.css" type="text/css" media="screen">
     
 </head>
 
 <body>
+    <div class="background-gradient">
 
-    <head class="menu-alura">
-        <a href="https://www.alura.com.br/" target="_blank"><img src="" alt=""></a>
-        <img src="" alt="">
-
-    </head>
-
-    <div class="bloco-geral">
-
-    <section class="container">
+    <header class="alura-logo">
         <article class="title">
             <h1>Aluraflix</h1>
         </article>
-        <article class="subtitle">
-            
-        </article>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="logo-imers" alt=""><br>
+        <a href="https://www.alura.com.br/" target="_blank"><img src="https://www.alura.com.br/assets/img/home/alura-logo.svg"></a>
 
-        <form>
-            <label for="pegarImg">Digite a URL da Imagem</label><br>
-            <input type="text" id="pegarImg" value="" /><br>
-            <label for="pegarNome"></label>Digite o nome do Filme<br>
-            <input type="text" id="pegarNome" value="" /><br>
-            <input type="button" id="inserir" onclick="addItem()" value="Adicionar Filme" /><br><br>
+    </header>
+
+    
+
+    <article class="sub-title">
+        <h2>Que tal criar uma lista com seus filmes preferidos?</h2>
+    </article>
+
+
+    <section class="container">
+        
+
+        <form class="inputs-forms">
+            
+            <label for="pegarImg"></label><br>
+            <input type="text" id="pegarImg" value="" placeholder="Digite a URL de um poster" /><br>
+            <input type="button" class="button-insert" id="inserir" onclick="addItem()" value="Adicionar Filme" /><br><br>
+        
         </form>
     </section>
 
 
     <section class="showFilme">
-        <article id="subst-image"></article>
+        <br><h1>Seus filmes preferidos:</h1>
+        <p id="subst-image"></p>
         <script src="../Aula_4/script.js"></script>
     </section>
+
+    
 </div>
 </body>
 
