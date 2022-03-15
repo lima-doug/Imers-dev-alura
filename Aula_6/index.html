@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Aula 6 - Imersão Dev Alura</title>
+    <link rel="stylesheet" href="./main/style.css" type="text/css">
+
+</head>
+
+<body>
+
+    <header class="alura-logo">
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="logo-imers" alt=""><br>
+        <a href="https://www.alura.com.br/" target="_blank"><img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" class="logo-alura"></a>
+    </header>
+
+    <article>
+        <h1 class="page-title">Tabela de classificação</h1>
+    </article>
+
+    <article class="reset-buttom">
+        <button type="submit" id="resetarJogo" onClick="resetarJogo()">Zerar Placar</button>
+    </article>
+
+    <section class="container">
+        <table style="width:100%">
+
+            <thead>
+
+                <tr>
+                    <th>Nome</th>
+                    <th>Vitórias</th>
+                    <th>Empates</th>
+                    <th>Derrotas</th>
+                    <th>Pontos</th>
+                    <th colspan="3" class="acoes-spaces">Ações</th>
+                </tr>
+            </thead>
+
+            <tbody id="tabelaJogadores">
+                <script src="./script.js"></script>
+        </table>
+
+    </section>
+
+
+
+    <div>
+        <input type="text" id="nomeJogador" name="jogador" placeholder="Insira o nome do jogador">
+        <input type="text" id="fotoJogador" name="fotoJogador" placeholder="Insira a url da foto">
+        <button onClick="adicionarJogador()">Adicionar Jogador</button>
+    </div>
+
+
+</body>
+
+</html>
