@@ -6,18 +6,6 @@ var gui = { nome: "Gui", vitorias: 0, empates: 0, derrotas: 0, pontos: 0 };
 
 var jogadores = [rafa, paulo, gui];
 
-function adicionarJogador() {
-    var nomeJogador = document.getElementById("nomeJogador").value;
-    document.getElementById("nomeJogador").value = "";
-    var fotoJogador = document.getElementById("fotoJogador").value;
-    document.getElementById("fotoJogador").value = "";
-
-    jogadorNovo.nome = nomeJogador
-    jogadorNovo.foto = fotoJogador
-    jogadores.push(jogadorNovo)
-    exibeJogadoresNaTela(jogadores)
-}
-
 function calculaPontos(jogador) {
     var pontos
     return pontos = jogador.vitorias * 3 + jogador.empates;
